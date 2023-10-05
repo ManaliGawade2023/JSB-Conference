@@ -1,0 +1,451 @@
+
+:root{
+    --primary-color :#074681;
+    --secondary-color:#00afef;
+    --tertiary-color:#56a68f;
+}
+
+
+html,body{
+    overflow-x: hidden !important;
+}
+.front-bg{
+    height:100px;
+}
+.l-btn{
+    margin-top:-32px !important;
+}
+@media(min-width:992px){
+    .l-btn{
+        margin-top:5px !important;
+    }
+}
+
+.nav-site{
+    background-color: var(--secondary-color);
+}
+
+/* Banner css here */
+.banner-first{
+    /* background-image: url(https://i.pinimg.com/564x/48/b5/4d/48b54d034e604bb6c8205c84343c583d.jpg); */
+    background-image: url(../images/newbanner.png);
+    /* min-height:50vh !important; */
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+@media(min-width:768px){
+    .banner-first{
+        /* background-image: url(https://i.pinimg.com/564x/48/b5/4d/48b54d034e604bb6c8205c84343c583d.jpg); */
+        /* min-height:40vh !important; */
+        background-size: 100% 100% !important;
+    }  
+}
+
+@media(min-width:992px){
+    .banner-first{
+        /* background-image: url(https://i.pinimg.com/564x/48/b5/4d/48b54d034e604bb6c8205c84343c583d.jpg); */
+        /* min-height:80vh !important; */
+        background-size: 100% 100% !important;
+    }  
+}
+.sub-ban-part{
+    /* height:70vh !important; */
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+    margin-top:6rem ;
+}
+.banner-heading {
+    background-color: #00000079 !important;
+    padding: 20px 10px ;
+}
+
+.banner-heading h1{
+    color: rgb(231, 153, 8);
+    font-size: 17px;
+    font-weight: 700;
+    /* line-height: 30rem; */
+    font-family:  Open Sans;
+}
+.banner-heading h6{
+    color: #fff;
+    font-size: 13px;
+}
+
+/* slide-text */
+marquee{
+    margin-top: 1.5rem !important;
+}
+
+@media(min-width:992px){
+    .sub-ban-part{
+        margin-top:25rem ;
+    }  
+
+    .banner-heading h1{
+        color: rgb(231, 153, 8);
+        font-size: 23px;
+        font-weight: 700;
+        /* line-height: 30rem; */
+    }
+    .banner-heading h6{
+        color: #fff;
+        font-size: 17px;
+    }
+    .banner-heading {
+        background-color: #000000ea !important;
+        padding: 10px 30px ;
+    }
+}
+
+/* About */
+
+.into-title,.into-sub,.section-sub-title{
+    font-size:28px !important;
+    font-weight: 700 !important;
+    font-family:"Montserrat", sans-serif !important;
+    /* font-family: 'Oswald', sans-serif; */
+    line-height: 1.2 !important;
+ color: var(--primary-color) !important;
+ padding-bottom: 15px;
+ padding-top: 5px;
+ text-transform: none !important;
+
+}
+.pointer li{
+font-size: 16px !important;
+color: black;
+}
+
+
+/* confernce */
+.info{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    margin: 0;
+    text-transform: none !important;
+    font-weight: 300 !important;
+    color: black !important;
+    padding-bottom: 20px;
+}
+
+.section-highlight{
+    margin-bottom: 10px !important;
+}
+
+.content{
+    background-color: #07468105;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #00afef !important;
+}
+
+/* single conference */
+.single-conference{
+    padding: 40px 0;
+}
+.single-conference img{
+    padding: 20px 0;
+}
+.b-option a{
+    color: #000 !important;
+}
+
+.confer-title{
+color: #074681!important;
+padding-bottom: 15px !important;
+}
+
+.c-caption{
+    color:#074681;
+    font-size: 18px;
+}
+
+.event{
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    color: #045f45;
+}
+.event i{
+    margin-right: 0.5rem;
+}
+
+.detail{
+    color: #000 !important;
+    font-weight: 600;
+}
+.confer-banner p a{
+    color: #00afef !important;
+}
+
+.review-add,.add{
+    padding: 10px 10px;
+    border: 1px solid #074681;
+    color: #fff;
+    font-weight: 600;
+    background-color: #074681;
+    margin-top: 2rem !important;
+    transition: smooth;
+}
+
+.review-add:hover,
+.add:hover{
+    color: #fff;
+
+}
+.text-primary i{
+    color:rgb(228, 159, 33);
+    font-size: 16px;
+}
+.save-btn{
+   background-color: #56a68f !important;
+ padding-left: 35px;
+ padding-right: 35px;
+}
+small{
+    font-size: 14px;
+    color: rgb(231, 99, 99);
+}
+
+.review_header h2{
+    color: #074681 !important;
+}
+
+.form-content label,.rate{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.comment-box{
+  padding-top: 40px !important;
+}
+
+.blog-heading h1{
+color: #074681 !important;
+}
+.post-meta-blog{
+    color:  #045f45;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sub-point-blog{
+    color: #074681 !important;
+}
+
+.comment-box h2{
+    color: #074681 !important;
+}
+
+.entry-link span,.entry-link span a{
+    color: #00afef !important;
+}
+/* footer */
+.footer-layer{
+    background-color: #fff!important;
+}
+.online{
+    display: flex;
+    justify-content: space-evenly;
+}
+.online {
+ list-style: none !important;
+}
+.online img{
+    width: 50px;
+}
+footer, .footer p{
+    font-size: 16px !important;
+}
+.footer-social ul li a i{
+    color: #074681 !important;
+    font-size: 23px !important;
+}
+.footer-link{
+display: flex !important;
+justify-content: space-evenly !important;
+}
+.footer-link li:hover{
+    color: var(--tertiary-color) !important;
+}
+.footer-widget{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-menu{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+
+/* about */
+.about-banner{
+    background-position: center !important;
+    min-height: 350px !important;
+}
+
+/* blog */
+.card-box{
+    margin: 0.5rem 0.5rem !important;
+}
+.post-recent{
+    margin-top:2rem !important;
+}
+.card-text{
+    text-decoration: none !important;
+}
+.card-text h5{
+    color: #074681!important;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+.card-body p{
+    font-size: 16px;
+}
+/* contact */
+.contact-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* reviews */
+.feedback{
+    width: 100%;
+}
+.thought blockquote{
+font-size: 16px !important;
+color: black !important;
+font-weight: 600;
+}
+
+.writer{
+    font-size: 16px !important;
+    color:#00afef !important;
+    font-weight: 600;
+     
+}
+
+/* conference */
+.conference-box{
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.c-card{
+    margin: 0.5rem 0 !important;
+    width: 15rem !important;
+}
+.box-img{
+    width: 100%;
+}
+.card-header{
+background-color:#14b8f3;
+color: #fff !important;
+}
+
+/* .card-header a h6{
+    color: #fff !important;
+    } */
+    
+/* carousel */
+.partner-img{
+    padding: 10px 10px;
+    vertical-align: middle;
+    width: 220px; 
+    height: 100px;
+    border-radius: 50px;
+}
+.part-box{
+    width: 250px; 
+    background-color: #eef4f8;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid rgb(116, 114, 114);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.pp{
+    padding-bottom: 35px !important;
+}
+
+/* conference */
+
+.nav-pill-menu {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+
+}
+.wow{
+    padding-top: 35px !important;
+}
+.conference-tab{
+    width: 100%;
+    height: auto;
+    border-radius: 10px !important;
+    padding: 25px 25px !important;
+    border: 2px solid black;
+}
+.conference-tab li{
+    list-style-type: none !important;
+    text-transform: none !important;
+     /* padding-top: 2px; */
+    padding-bottom: 2px; 
+        /* padding: 5px 5px; */
+        border-bottom: 1px dotted #000;
+        height:50px;
+        margin-top: 0.5rem;
+    }
+
+.conference-tab li a{
+   text-transform:initial !important;
+   color: #074681 !important;
+   font-size: 12px;
+   font-weight: 500;
+   text-align: left;
+padding-top: 2px;
+overflow: hidden;
+   /* white-space:nowrap !important; */
+}
+
+@media(min-width:576px){
+    .conference-tab li a{
+        font-size: 16px;
+        /* white-space:nowrap !important; */
+     }
+       
+}
+.con-link{
+    background-color:#F2F2F2 !important;
+    color: #074681 !important;
+    transition: .5s;
+
+}
+.c-heading{
+    color: #074681 !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+.con-link h6.active {
+    background:#074681 !important;
+    color: #fff !important;
+}
+
+.know{
+    background-color: #56a68f !important;
+    border: 1px solid #56a68f !important;
+    font-weight: 700 !important;
+}
+
+
+.form-container{
+    display: flex;
+    justify-content: center !important;
+
+}
